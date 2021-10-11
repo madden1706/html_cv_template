@@ -10,7 +10,7 @@ To clone this git repository from GitHub run:
 git clone https://github.com/madden1706/html_cv_template.git
 ```
 
-This will clone the files into a directory called 'html_cv_template'.
+This command will clone the files into a directory called 'html_cv_template'.
 
 ### Using git branches for CV versions
 
@@ -35,8 +35,26 @@ git commit path/to/file.txt -m "Message for the commit for what you have done."
 
 # Show a log of commits
 git log
+
+# git log output
+commit 12becc203e88d6b5b6920825180fd3919bcbb230 (HEAD -> master)
+Author: Ross Madden <madden1706@gmail.com>
+Date:   Mon Oct 11 20:33:24 2021 +0100
+
+    Added details about git.
+
+commit 3b83cb1e2b1544e396f97e85ec178f25b2d7e2e9 (origin/master)
+Author: Ross Madden <madden1706@gmail.com>
+Date:   Mon Oct 11 20:27:01 2021 +0100
+
+    Initial commit of README.
+
+# To checkout a specific commit
+git checkout 3b83cb1e2b1544e396f97e85ec178f25b2d7e2e9
+git checkout new_job_branch
 ```
 
+This repository can be pushed to a remote repo e.g. GitHub. 
 
 ### Building the Docker container
 
