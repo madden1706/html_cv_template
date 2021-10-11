@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+    cv-maker:
+        build: "cv/."
+        volumes:
+            - "./cv/cv_maker:/home/maker/cv_maker"
+
+        command: "sleep infinity"
+        container_name: cv_maker
