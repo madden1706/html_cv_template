@@ -81,3 +81,6 @@ The command mounts the 'cv_maker' directory in the container. The naming of the 
 
 The output files are added to the directory './cv/cv_maker/outputs/'. The date and time are the prefix to the file name for one file. The file 'cv.pdf' is always the most recent version.
 
+One thing to note is that the example is a two page document - there are two 'page' tags in the html document. You may want only 1 or more - so delete or add as needed
+for the cotent you have. Be careful of content overflowing pages with this.
+
