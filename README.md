@@ -68,13 +68,16 @@ where 'cv_maker' is tagged as the name of the container. Change the path to the 
 
 ### Making the pdf CV
 
+The file 'cv.html' in the html_css folder can be opened in a web browser (drag and dropping should open the file) to view changes (just reload the page to view them).
+
 To generate a pdf from the CV html and CSS files run:
 
 ```shell 
+# '~/Desktop/html_cv/cv/cv_maker' - this directory will need to be the correct path to the files on your machine
 docker run  -v ~/Desktop/html_cv/cv/cv_maker:/home/maker/cv_maker cv_maker
 ```
 
 The command mounts the 'cv_maker' directory in the container. The naming of the files is important, they should not be changed.
 
-The output file is added to the directory './cv/cv_maker/outputs/'. The date and time are the prefix to the file name. The file 'cv.pdf' is always the most recent version.
+The output files are added to the directory './cv/cv_maker/outputs/'. The date and time are the prefix to the file name for one file. The file 'cv.pdf' is always the most recent version.
 
