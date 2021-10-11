@@ -64,7 +64,7 @@ To use build a container from the image with:
 docker build -t cv_maker ~/Desktop/html_cv/cv/. 
 ```
 
-where 'cv_maker' is tagged as the name of the container. Change the path to the Dockerfile as needed.
+where 'cv_maker' is tagged as the name of the container. Change the path to the Dockerfile as needed. You can change this name - but if you know what this is and have a container named cv_maker already (?) you probably don't need me to tell you this. 
 
 ### Making the pdf CV
 
