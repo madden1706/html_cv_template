@@ -54,7 +54,7 @@ git checkout 3b83cb1e2b1544e396f97e85ec178f25b2d7e2e9
 git checkout new_job_branch
 ```
 
-This repository can be pushed to a remote repo e.g. GitHub. 
+This repository can be pushed to a remote repo e.g. GitHub. [This StackOverflow thread](https://stackoverflow.com/questions/5181845/git-push-existing-repo-to-a-new-and-different-remote-repo-server) may be useful if you wish to do this.
 
 ### Building the Docker container
 
