@@ -1,6 +1,6 @@
 FROM python:3.8
 
-RUN pip install WeasyPrint
+RUN pip install WeasyPrint==52.5
 
 RUN useradd -ms /bin/bash maker
 USER maker
